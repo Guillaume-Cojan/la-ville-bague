@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(61, 61, 61);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: top;
+    margin-left: 5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar-right {
+    display: flex;
+    margin-right: 5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav-pills {
+    display: flex;
+    justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+#navbar-main-title {
+    font-family: "Century Gothic", sans-serif;
+    color: rgb(0, 153, 204);
+    font-size: 28px;
+    text-shadow: rgb(0 0 0 / 20%) 2px 5px 9px,
+        rgb(255 255 255 / 30%) 0px -5px 35px;
+    line-height: 42px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-style: normal;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#navbar-subtitle {
+    font-family: "Century Gothic", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+    text-shadow: none;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
 }

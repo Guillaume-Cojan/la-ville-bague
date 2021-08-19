@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
 }
 
 .img-polaroid {
@@ -21,6 +21,7 @@ body {
     justify-content: space-between;
     background-color: rgb(61, 61, 61);
     height: 85px;
+    padding: 0 7%;
 }
 
 .navbar-left {
@@ -28,17 +29,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: top;
-    margin-left: 7%;
 }
 
 .navbar-right {
     display: flex;
+    align-items: center;
     margin-right: 5%;
-}
-
-.nav-pills {
-    display: flex;
-    justify-content: space-between;
 }
 
 #navbar-main-title {
@@ -72,6 +68,29 @@ body {
     text-decoration: none;
 }
 
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    height: 100%;
+}
+
+li :hover {
+    background-color: #0099cc;
+}
+
+.navlink-home {
+    background-color: #0099cc;
+    color: white;
+    text-decoration: none;
+}
+
+.navlink {
+    color: white;
+    text-decoration: none;
+}
+
 /*------STYLING OF HOME------*/
 
 .top-img-container {
@@ -88,21 +107,19 @@ body {
 .home-welcome-text-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
+    padding-top: 8%;
     margin: 0 15%;
     height: inherit;
 }
 
 #welcome-message {
-    width: 30rem;
+    width: 27rem;
     color: rgb(46, 46, 46);
     font-size: 240%;
-    line-height: 3rem;
-    font-family: "Source Sans Pro", sans-serif;
+    line-height: 2.8rem;
     text-shadow: rgb(0 0 0 / 15%) 0px 3px 5px,
         rgb(255 255 255 / 30%) 0px -5px 35px;
-    font-weight: normal;
-    font-style: normal;
     background-color: rgb(255, 255, 255);
     opacity: 0.8;
     padding: 7px 10px;
@@ -113,7 +130,6 @@ body {
     font-size: 110%;
     line-height: 23px;
     letter-spacing: 1px;
-    margin-top: 11px;
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     color: rgb(255, 255, 255);
     text-shadow: none;
@@ -129,13 +145,10 @@ body {
     text-align: justify;
 }
 
-.home-intro p {
-    text-align: justify;
-}
-
 .home-visit {
-    background-color: rgb(238, 238, 238);
+    background-color: rgb(243, 243, 243);
     padding: 2% 15%;
+    text-align: justify;
 }
 
 @media screen and (max-width: 900px) {
@@ -145,7 +158,8 @@ body {
         object-position: 20% 10%;
     }
     #welcome-message {
-        width: 23rem;
+        width: 20.3rem;
+        line-height: 2.3rem;
         font-size: 180%;
     }
     #welcome-subtitle {
@@ -166,12 +180,13 @@ body {
 
 @media screen and (max-width: 700px) {
     #welcome-message {
-        width: 20rem;
+        width: 18rem;
+        line-height: 2rem;
         font-size: 160%;
     }
     #welcome-subtitle {
-        width: 20rem;
-        font-size: 81%;
+        width: 18rem;
+        font-size: 100%;
     }
     .home-welcome-text-container {
         margin: 0 8%;

@@ -31,7 +31,7 @@ function Home() {
         <div className="home-container">
             <div className="top-img-container">
                 <div className="home-welcome-text-container">
-                    <div id="welcome-message">Bienvenue à la Malouinière!</div>
+                    <h1 id="welcome-message">Bienvenue à la Malouinière!</h1>
                     <div id="welcome-subtitle">
                         Invitez-vous au coeur d'une demeure d'armateurs
                         malouins.

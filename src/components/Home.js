@@ -53,16 +53,21 @@ function Home() {
                 </h2>
                 <CarouselProvider
                     naturalSlideWidth={100}
-                    naturalSlideHeight={60}
-                    totalSlides={10}
-                    visibleSlides={
-                        size < 800 ? 2 : size < 1200 ? 3 : 4
+                    naturalSlideHeight={
+                        size > 700
+                            ? 60
+                            : size > 600
+                            ? 80
+                            : size > 480
+                            ? 100
+                            : 125
                     }
+                    totalSlides={10}
+                    visibleSlides={size < 900 ? 2 : size < 1300 ? 3 : 4}
                     isPlaying={true}
                     infinite={true}
                     interval={3000}
-                    step={size > 1200 ? 2 : 1}
-                    isIntrinsicHeight={true}
+                    step={size > 1300 ? 2 : 1}
                 >
                     <Slider>
                         <Slide index={0}>

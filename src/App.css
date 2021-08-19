@@ -4,6 +4,7 @@ body {
 }
 
 .img-polaroid {
+    width: 90%;
     padding: 4px;
     background-color: #fff;
     border: 1px solid #ccc;
@@ -11,7 +12,6 @@ body {
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    width: 90%;
 }
 
 /*------STYLING OF NAVBAR------*/
@@ -126,9 +126,57 @@ body {
 
 .home-intro {
     margin: 2% 15%;
+    text-align: justify;
+}
+
+.home-intro p {
+    text-align: justify;
 }
 
 .home-visit {
     background-color: rgb(238, 238, 238);
     padding: 2% 15%;
+}
+
+@media screen and (max-width: 900px) {
+    .img-polaroid {
+        height: 150px;
+        object-fit: cover;
+        object-position: 20% 10%;
+    }
+    #welcome-message {
+        width: 23rem;
+        font-size: 180%;
+    }
+    #welcome-subtitle {
+        width: 23rem;
+        font-size: 81%;
+    }
+    .top-img-container {
+        background-image: url("./assets/home-main.jpg");
+        background-position: right bottom 30%;
+        background-repeat: no-repeat;
+        background-attachment: center;
+        background-size: cover;
+        background-color: rgb(240, 240, 240);
+        box-shadow: 0px 3px 11px rgb(0 0 0 / 70%);
+        height: 40vh;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #welcome-message {
+        width: 20rem;
+        font-size: 160%;
+    }
+    #welcome-subtitle {
+        width: 20rem;
+        font-size: 81%;
+    }
+    .home-welcome-text-container {
+        margin: 0 8%;
+    }
+    .top-img-container {
+        height: 30vh;
+    }
 }

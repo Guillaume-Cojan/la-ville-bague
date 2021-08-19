@@ -1,7 +1,26 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img-polaroid {
+    padding: 4px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    width: 90%;
+}
+
+/*------STYLING OF NAVBAR------*/
+
 .navbar-container {
     display: flex;
     justify-content: space-between;
     background-color: rgb(61, 61, 61);
+    height: 85px;
 }
 
 .navbar-left {
@@ -9,7 +28,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: top;
-    margin-left: 5%;
+    margin-left: 7%;
 }
 
 .navbar-right {
@@ -51,4 +70,65 @@
     font-weight: normal;
     font-style: normal;
     text-decoration: none;
+}
+
+/*------STYLING OF HOME------*/
+
+.top-img-container {
+    background-image: url("./assets/home-main.jpg");
+    background-position: right bottom 30%;
+    background-repeat: no-repeat;
+    background-attachment: center;
+    background-size: cover;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0px 3px 11px rgb(0 0 0 / 70%);
+    height: 50vh;
+}
+
+.home-welcome-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 15%;
+    height: inherit;
+}
+
+#welcome-message {
+    width: 30rem;
+    color: rgb(46, 46, 46);
+    font-size: 240%;
+    line-height: 3rem;
+    font-family: "Source Sans Pro", sans-serif;
+    text-shadow: rgb(0 0 0 / 15%) 0px 3px 5px,
+        rgb(255 255 255 / 30%) 0px -5px 35px;
+    font-weight: normal;
+    font-style: normal;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+    padding: 7px 10px;
+}
+
+#welcome-subtitle {
+    width: 30rem;
+    font-size: 110%;
+    line-height: 23px;
+    letter-spacing: 1px;
+    margin-top: 11px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: rgb(255, 255, 255);
+    text-shadow: none;
+    font-weight: normal;
+    font-style: italic;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    padding: 3px 10px;
+}
+
+.home-intro {
+    margin: 2% 15%;
+}
+
+.home-visit {
+    background-color: rgb(238, 238, 238);
+    padding: 2% 15%;
 }

@@ -1,6 +1,3 @@
-import React from "react";
-import "../App.css";
-
 function Navbar() {
     return (
         <div className="navbar-container">
@@ -30,10 +27,10 @@ function Navbar() {
                             </li>
                             <li className="dropdown">
                                 {" "}
-                                <a class="dropdown-toggle">
+                                <a className="dropdown-toggle">
                                     Le lieu <b class="caret"></b>
                                 </a>
-                                <ul class="dropdown-menu">
+                                <ul className="dropdown-menu">
                                     <li>
                                         <a href="compagnie_indes.html">
                                             La Compagnie des Indes
@@ -56,12 +53,12 @@ function Navbar() {
                                     </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
+                            <li className="dropdown">
                                 {" "}
-                                <a class="dropdown-toggle">
+                                <a className="dropdown-toggle">
                                     Prestations<b class="caret"></b>
                                 </a>
-                                <ul class="dropdown-menu">
+                                <ul className="dropdown-menu">
                                     <li>
                                         <a href="visites_guidees.html">
                                             Visites guidées
@@ -80,10 +77,10 @@ function Navbar() {
                                     </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
+                            <li className="dropdown">
                                 <a href="galerie.html">Galerie</a>
                             </li>
-                            <li class="dropdown">
+                            <li className="dropdown">
                                 <a href="contacts.html">Contacts</a>
                             </li>
                         </ul>

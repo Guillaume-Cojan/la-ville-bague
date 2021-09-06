@@ -3,6 +3,10 @@ body {
     font-family: "Source Sans Pro", sans-serif;
 }
 
+p {
+    font-size: 1.15rem;
+}
+
 .img-polaroid {
     width: 90%;
     padding: 4px;
@@ -21,7 +25,7 @@ body {
     justify-content: space-between;
     background-color: rgb(61, 61, 61);
     height: 85px;
-    padding: 0 7%;
+    padding: 0 10%;
 }
 
 .navbar-left {
@@ -68,22 +72,35 @@ body {
     text-decoration: none;
 }
 
-li {
+.navbar-right li {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 20px;
+    margin: 0 2px;
+    width: 120px;
     height: 100%;
 }
 
-li :hover {
+.navbar-right li :hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85px;
     background-color: #0099cc;
+    transition-duration: 0.3s;
 }
 
 .navlink-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85px;
     background-color: #0099cc;
     color: white;
     text-decoration: none;
+    vertical-align: center;
 }
 
 .navlink {
@@ -147,8 +164,69 @@ li :hover {
 
 .home-visit {
     background-color: rgb(243, 243, 243);
-    padding: 2% 15%;
+    padding: 1% 15%;
     text-align: justify;
+    margin-bottom: 2%;
+}
+
+.home-visit h2 {
+    color: #004b64;
+    text-align: center;
+}
+
+.home-other {
+    padding: 1% 15%;
+    margin-bottom: 2%;
+    text-align: justify;
+    display: flex;
+}
+
+.home-other h2,
+.home-other h3 {
+    color: #004b64;
+    text-align: center;
+}
+
+.home-other-left {
+    width: 70%;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+}
+
+.home-other-left p {
+    padding: 0 4.5%;
+}
+
+.home-other-right {
+    width: 30%;
+    padding: 0 2%;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(226, 226, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+}
+
+.event-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+.event-card p {
+    font-size: 1rem;
+}
+
+.event-link {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    color: rgb(0, 153, 204);
 }
 
 @media screen and (max-width: 900px) {
@@ -194,4 +272,33 @@ li :hover {
     .top-img-container {
         height: 30vh;
     }
+}
+
+/*------STYLING OF HOME------*/
+
+.footer-container {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 3% 7%;
+    text-align: justify;
+}
+
+.footer-sections {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 15%;
+}
+
+.footer-inner-section {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
 }

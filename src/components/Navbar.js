@@ -23,7 +23,7 @@ function Navbar() {
                     </Link>
                 </li>
                 <li>
-                    <Link className="navlink" to="/">
+                    <Link className="navlink" to="/visites">
                         Prestations
                     </Link>
                 </li>
@@ -37,6 +37,8 @@ function Navbar() {
                         Contacts
                     </Link>
                 </li>
+                <div>FR</div>
+                <div>EN</div>
             </div>
         </div>
     );

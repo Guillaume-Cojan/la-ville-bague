@@ -23,6 +23,7 @@ p {
 .navbar-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: rgb(61, 61, 61);
     height: 85px;
     padding: 0 10%;
@@ -38,7 +39,17 @@ p {
 .navbar-right {
     display: flex;
     align-items: center;
-    margin-right: 5%;
+    height: 100%;
+}
+
+.navbar-links {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.dropdown {
+    height: 100%;
 }
 
 #navbar-main-title {
@@ -72,40 +83,50 @@ p {
     text-decoration: none;
 }
 
-.navbar-right li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 2px;
-    width: 120px;
-    height: 100%;
-}
-
-.navbar-right li :hover {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 85px;
-    background-color: #0099cc;
-    transition-duration: 0.3s;
-}
-
 .navlink-home {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 85px;
+    width: 120px;
+    height: 100%;
+    margin: 0 2px;
     background-color: #0099cc;
     color: white;
     text-decoration: none;
-    vertical-align: center;
 }
 
 .navlink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(61, 61, 61);
+    border: none;
     color: white;
     text-decoration: none;
+    margin: 0 2px;
+    width: 110px;
+    height: 100%;
+}
+
+.navlink:hover {
+    background-color: #0099cc;
+    transition-duration: 0.3s;
+}
+
+@media screen and (min-width: 1094px) {
+    .hamburger-menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1093px) {
+    .navbar-right {
+        display: none;
+    }
+    .hamburger-menu {
+        height: 40px;
+        width: 40px;
+    }
 }
 
 /*------STYLING OF HOME------*/
@@ -301,4 +322,10 @@ p {
     display: flex;
     flex-direction: column;
     width: 80%;
+}
+
+/*------STYLING OF TOURS------*/
+
+.tours-details {
+    display: flex;
 }

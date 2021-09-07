@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Tours from "./components/Tours";
 import Receptions from "./components/Receptions";
 import Cottages from "./components/Cottages";
+import Events from "./components/Events";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                 <Route path="/visites" component={Tours} />
                 <Route path="/receptions" component={Receptions} />
                 <Route path="/gites" component={Cottages} />
+                <Route path="/evenements" component={Events} />
             </Switch>
             <Footer />
         </>

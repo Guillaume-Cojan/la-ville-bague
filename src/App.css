@@ -443,7 +443,7 @@ p {
     justify-content: center;
 }
 
-.cottages-right p {
+.cottages-details-right p {
     padding: 0 4.5%;
 }
 
@@ -454,7 +454,7 @@ p {
 }
 
 .img-polaroid-gites {
-    width: 40%;
+    width: 260px;
     padding: 3px;
     margin: 3px;
     background-color: #fff;
@@ -463,4 +463,44 @@ p {
     -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/*------STYLING OF EVENTS------*/
+
+.events-intro {
+    padding: 1% 15%;
+    background-color: rgb(243, 243, 243);
+    text-align: justify;
+}
+
+.events-details {
+    padding: 1% 15%;
+    margin: 1% 0;
+    text-align: justify;
+    display: flex;
+}
+
+.events-details-main {
+    width: 70%;
+    margin: 0 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.events-details-main p {
+    padding: 0 4.5%;
+}
+
+.events-details-others {
+    width: 30%;
+    margin: 0 2%;
+    padding: 1% 2%;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(226, 226, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
 }

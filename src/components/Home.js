@@ -1,7 +1,7 @@
 import { CarouselProvider, Slider, Slide } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import { useState, useEffect } from "react";
-import Event from "./Event.js";
+import EventHome from "./EventHome.js";
 import Receptions from "../assets/receptions.jpg";
 import Patrimoine from "../assets/events/small/patrimoine-21.jpg";
 import Automne from "../assets/events/small/automne-21.jpg";
@@ -159,23 +159,23 @@ function Home() {
                     ses collections d'armes corsaires.
                 </p>
             </div>
-            <div className="home-other">
-                <div className="home-other-left">
-                    <h2>La Ville Bague vous propose également :</h2>
-                    <h3>Réceptions, événements, location de gîtes...</h3>
-                    <img
-                        src={Receptions}
-                        alt="receptions"
-                        className="img-polaroid"
-                    />
-                    <p>
-                        Pour réussir vos dîners, cocktail, séminaires...
-                        Laissez-vous charmer par l'authenticité du parc ou des
-                        intérieurs de la malouinière spécialement aménagés pour
-                        l'occasion. Avec une vue imprenable sur le jardin, les
-                        salons représentent un lieu d'exception pour toutes vos
-                        réceptions.
-                    </p>
+                <div className="home-other">
+                    <div className="home-other-left">
+                        <h2>La Ville Bague vous propose également :</h2>
+                        <h3>Réceptions, événements, location de gîtes...</h3>
+                        <img
+                            src={Receptions}
+                            alt="receptions"
+                            className="img-polaroid"
+                        />
+                        <p>
+                            Pour réussir vos dîners, cocktail, séminaires...
+                            Laissez-vous charmer par l'authenticité du parc ou des
+                            intérieurs de la malouinière spécialement aménagés pour
+                            l'occasion. Avec une vue imprenable sur le jardin, les
+                            salons représentent un lieu d'exception pour toutes vos
+                            réceptions.
+                        </p>
                     <p>
                         Vous restez libre du choix de vos prestataires. Pour
                         plus de confort, nous pouvons vous recommander nos
@@ -191,7 +191,7 @@ function Home() {
                 </div>
                 <div className="home-other-right">
                     <h2>A LA UNE</h2>
-                    <Event
+                    <EventHome
                         title="Journées du Patrimoine :"
                         img={Patrimoine}
                         description={
@@ -205,7 +205,7 @@ function Home() {
                             </>
                         }
                     />
-                    <Event
+                    <EventHome
                         title="Marché d'Automne :"
                         img={Automne}
                         description={

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import EventHome from "./EventHome.js";
+import EventHome from "./Event.js";
 import Patrimoine from "../assets/events/small/patrimoine-21.jpg";
 import Automne from "../assets/events/small/automne-21.jpg";
 

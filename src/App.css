@@ -209,7 +209,6 @@ p {
 }
 
 .home-other-left {
-    width: 70%;
     margin: 0 2%;
     display: flex;
     flex-direction: column;
@@ -222,7 +221,6 @@ p {
 }
 
 .home-other-right {
-    width: 30%;
     margin: 0 2%;
     padding: 0 2%;
     background-color: rgb(243, 243, 243);
@@ -293,6 +291,28 @@ p {
     }
     .top-img-container {
         height: 30vh;
+    }
+}
+
+@media screen and (max-width: 939px) {
+    .home-other {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-other-right,
+    .home-other-left {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 940px) {
+    .home-other-right {
+        width: 30%;
+    }
+
+    .home-other-left {
+        width: 70%;
     }
 }
 

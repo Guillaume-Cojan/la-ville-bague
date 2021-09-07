@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-function Event({ title, img, description }) {
+function Event({ title, img, description, link, linkText }) {
     return (
         <div>
             <div
@@ -10,12 +10,12 @@ function Event({ title, img, description }) {
             ></div>
             <div className="event-card">
                 <h3>{title}</h3>
-                <Link className="event-link" to="/">
+                <Link className="event-link" to={link}>
                     <img className="img-polaroid" src={img} alt="event" />
                 </Link>
                 <p>{description}</p>
-                <Link className="event-link" to="/">
-                    EN SAVOIR PLUS
+                <Link className="event-link" to={link}>
+                    {linkText}
                 </Link>
             </div>
         </div>

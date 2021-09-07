@@ -3,8 +3,15 @@ body {
     font-family: "Source Sans Pro", sans-serif;
 }
 
+h2,
+h3 {
+    color: #004b64;
+    text-align: center;
+}
+
 p {
     font-size: 1.15rem;
+    margin: 15px 0;
 }
 
 .img-polaroid {
@@ -190,22 +197,11 @@ p {
     margin-bottom: 2%;
 }
 
-.home-visit h2 {
-    color: #004b64;
-    text-align: center;
-}
-
 .home-other {
     padding: 1% 15%;
     margin-bottom: 2%;
     text-align: justify;
     display: flex;
-}
-
-.home-other h2,
-.home-other h3 {
-    color: #004b64;
-    text-align: center;
 }
 
 .home-other-left {
@@ -326,6 +322,49 @@ p {
 
 /*------STYLING OF TOURS------*/
 
+.top-link {
+    margin: 2% 15%;
+}
+
+.tours-intro {
+    padding: 1% 15%;
+    background-color: rgb(243, 243, 243);
+    text-align: justify;
+}
+
+.p-alert {
+    font-style: italic;
+    color: rgb(145, 24, 24);
+    padding: 1% 10%;
+}
+
 .tours-details {
+    padding: 1% 15%;
+    margin: 1% 0;
+    text-align: justify;
     display: flex;
+}
+
+.tours-right {
+    width: 70%;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+}
+
+.tours-right p {
+    padding: 0 4.5%;
+}
+
+.tours-left {
+    width: 30%;
+    padding: 0 2%;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(226, 226, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
 }

@@ -1,6 +1,10 @@
 import { CarouselProvider, Slider, Slide } from "pure-react-carousel";
 import "pure-react-carousel/dist/react-carousel.es.css";
 import { useState, useEffect } from "react";
+import Event from "./Event.js";
+import Receptions from "../assets/receptions.jpg";
+import Patrimoine from "../assets/events/small/patrimoine-21.jpg";
+import Automne from "../assets/events/small/automne-21.jpg";
 import carouselBassin from "../assets/carousel-home/bassin.jpg";
 import carouselSalon from "../assets/carousel-home/grand_salon.jpg";
 import carouselInstruments from "../assets/carousel-home/instruments.jpg";
@@ -11,10 +15,6 @@ import carouselBibliotheque from "../assets/carousel-home/bibliotheque.jpg";
 import carouselNeige from "../assets/carousel-home/neige.jpg";
 import carouselChambre from "../assets/carousel-home/chambre_rose.jpg";
 import carouselFleurs from "../assets/carousel-home/fleurs.jpg";
-import Receptions from "../assets/receptions.jpg";
-import Patrimoine from "../assets/patrimoine-21.jpg";
-import Automne from "../assets/automne-21.jpg";
-import Event from "./Event.js";
 
 function useWindowSize() {
     const [windowSize, setWindowSize] = useState(undefined);

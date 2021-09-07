@@ -143,7 +143,7 @@ p {
 /*------STYLING OF HOME------*/
 
 .top-img-container {
-    background-image: url("./assets/home-main.jpg");
+    background-image: url("./assets/home.jpg");
     background-position: right bottom 30%;
     background-repeat: no-repeat;
     background-attachment: center;
@@ -267,7 +267,7 @@ p {
         font-size: 81%;
     }
     .top-img-container {
-        background-image: url("./assets/home-main.jpg");
+        background-image: url("./assets/home.jpg");
         background-position: right bottom 30%;
         background-repeat: no-repeat;
         background-attachment: center;
@@ -346,6 +346,18 @@ p {
     display: flex;
 }
 
+.tours-left {
+    width: 30%;
+    margin: 0 2%;
+    padding: 1% 2%;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(226, 226, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+}
+
 .tours-right {
     width: 70%;
     margin: 0 2%;
@@ -357,18 +369,6 @@ p {
 
 .tours-right p {
     padding: 0 4.5%;
-}
-
-.tours-left {
-    width: 30%;
-    margin: 0 2%;
-    padding: 1% 2%;
-    background-color: rgb(243, 243, 243);
-    border: 1px solid rgb(226, 226, 226);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: top;
 }
 
 /*------STYLING OF RECEPTIONS------*/
@@ -405,4 +405,62 @@ p {
 
 .receptions-carousel {
     margin: 3% 0;
+}
+
+/*------STYLING OF COTTAGES------*/
+
+.cottages-intro {
+    padding: 1% 15%;
+    background-color: rgb(243, 243, 243);
+    text-align: justify;
+}
+
+.cottages-details {
+    padding: 1% 15%;
+    margin: 1% 0;
+    text-align: justify;
+    display: flex;
+}
+
+.cottages-details-left {
+    width: 30%;
+    margin: 0 2%;
+    padding: 1% 2%;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(226, 226, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+}
+
+.cottages-details-right {
+    width: 70%;
+    margin: 0 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cottages-right p {
+    padding: 0 4.5%;
+}
+
+.cottage-pics {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-polaroid-gites {
+    width: 40%;
+    padding: 3px;
+    margin: 3px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }

@@ -5,6 +5,7 @@ import Navbar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Tours from "./components/Tours";
 import Receptions from "./components/Receptions";
+import Cottages from "./components/Cottages";
 
 function App() {
     return (
@@ -14,6 +15,7 @@ function App() {
                 <Route exact path="/" component={Home} />
                 <Route path="/visites" component={Tours} />
                 <Route path="/receptions" component={Receptions} />
+                <Route path="/gites" component={Cottages} />
             </Switch>
             <Footer />
         </>

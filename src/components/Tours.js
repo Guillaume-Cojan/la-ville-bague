@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Visites from "../assets/visites.jpg";
 
 function Tours() {
@@ -5,8 +6,7 @@ function Tours() {
         <div className="tours-container">
             <div className="top-link">
                 <p>
-                    <a href="index.html">Accueil</a> / Prestations / Visites
-                    guidées
+                    <Link to="/">Accueil</Link> / Prestations / Visites guidées
                 </p>
             </div>
             <div className="tours-intro">

@@ -8,6 +8,8 @@ import Receptions from "./components/Receptions";
 import Cottages from "./components/Cottages";
 import Events from "./components/Events";
 import Contacts from "./components/Contacts";
+import Company from "./components/Company";
+import Construction from "./components/Construction";
 
 function App() {
     return (
@@ -15,11 +17,13 @@ function App() {
             <Navbar />
             <Switch>
                 <Route exact path="/" component={Home} />
-                <Route path="/visites" component={Tours} />
+                <Route path="/visites_guidees" component={Tours} />
                 <Route path="/receptions" component={Receptions} />
-                <Route path="/gites" component={Cottages} />
+                <Route path="/location_gites.html" component={Cottages} />
                 <Route path="/evenements" component={Events} />
                 <Route path="/contacts" component={Contacts} />
+                <Route path="/compagnie_indes" component={Company} />
+                <Route path="/construction_malouinieres" component={Construction} />
             </Switch>
             <Footer />
         </>

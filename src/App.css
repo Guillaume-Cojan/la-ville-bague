@@ -602,3 +602,49 @@ p {
 .contacts-details-right p {
     padding: 0 4.5%;
 }
+
+/*------STYLING OF COMPANY------*/
+
+.company-intro {
+    padding: 1% 15%;
+    background-color: rgb(243, 243, 243);
+    text-align: justify;
+}
+
+.company-details {
+    padding: 1% 15%;
+    margin: 1% 0;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+
+.company-middle-paragraph {
+    display: flex;
+    align-items: center;
+}
+
+/*------STYLING OF CONSTRUCTION------*/
+
+.construction-intro {
+    padding: 1% 15%;
+    background-color: rgb(243, 243, 243);
+    text-align: justify;
+}
+
+.construction-details {
+    padding: 1% 15%;
+    margin: 1% 0;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+
+.construction-details-first {
+    text-align: justify;
+    display: flex;
+}
+
+.construction-details-paragraphs {
+    margin-left: 10%;
+}

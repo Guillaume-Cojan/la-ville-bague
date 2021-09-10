@@ -125,12 +125,24 @@ p {
 }
 
 @media screen and (min-width: 1094px) {
+    .navbar-container {
+        padding: 0 10%;
+    }
+}
+
+@media screen and (min-width: 986px) {
     .hamburger-menu {
         display: none;
     }
 }
 
 @media screen and (max-width: 1093px) {
+    .navbar-container {
+        padding: 0 5%;
+    }
+}
+
+@media screen and (max-width: 985px) {
     .navbar-right {
         display: none;
     }
@@ -158,7 +170,6 @@ p {
     flex-direction: column;
     justify-content: left;
     padding-top: 8%;
-    margin: 0 15%;
     height: inherit;
 }
 
@@ -190,19 +201,16 @@ p {
 }
 
 .home-intro {
-    margin: 2% 15%;
     text-align: justify;
 }
 
 .home-visit {
     background-color: rgb(243, 243, 243);
-    padding: 1% 15%;
     text-align: justify;
     margin-bottom: 2%;
 }
 
 .home-other {
-    padding: 1% 15%;
     margin-bottom: 2%;
     text-align: justify;
     display: flex;
@@ -313,6 +321,36 @@ p {
 
     .home-other-left {
         width: 70%;
+    }
+}
+
+@media screen and (min-width: 1094px) {
+    .home-welcome-text-container {
+        margin: 0 15%;
+    }
+    .home-intro {
+        margin: 2% 15%;
+    }
+    .home-visit {
+        padding: 1% 15%;
+    }
+    .home-other {
+        padding: 1% 15%;
+    }
+}
+
+@media screen and (max-width: 1093px) {
+    .home-welcome-text-container {
+        margin: 0 6%;
+    }
+    .home-intro {
+        margin: 1% 6%;
+    }
+    .home-visit {
+        padding: 0% 6%;
+    }
+    .home-other {
+        padding: 0% 6%;
     }
 }
 
@@ -523,4 +561,44 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: top;
+}
+
+/*------STYLING OF CONTACTS------*/
+
+.contacts-intro {
+    padding: 1% 15%;
+    background-color: rgb(243, 243, 243);
+    text-align: justify;
+}
+
+.contacts-details {
+    padding: 1% 15%;
+    margin: 1% 0;
+    text-align: justify;
+    display: flex;
+}
+
+.contacts-details-left {
+    width: 50%;
+    margin: 0 2%;
+    padding: 1% 2%;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(226, 226, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: top;
+}
+
+.contacts-details-right {
+    width: 50%;
+    margin: 0 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contacts-details-right p {
+    padding: 0 4.5%;
 }

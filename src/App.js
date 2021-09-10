@@ -7,6 +7,7 @@ import Tours from "./components/Tours";
 import Receptions from "./components/Receptions";
 import Cottages from "./components/Cottages";
 import Events from "./components/Events";
+import Contacts from "./components/Contacts";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
                 <Route path="/receptions" component={Receptions} />
                 <Route path="/gites" component={Cottages} />
                 <Route path="/evenements" component={Events} />
+                <Route path="/contacts" component={Contacts} />
             </Switch>
             <Footer />
         </>

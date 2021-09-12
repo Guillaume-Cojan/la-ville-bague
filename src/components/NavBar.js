@@ -62,7 +62,7 @@ function NavBar() {
                                     <Dropdown.Item>
                                         <NavLink
                                             className="navlink"
-                                            to="/ville_bague"
+                                            to="/histoire_ville_bague"
                                         >
                                             L'Histoire de la Ville Bague
                                         </NavLink>

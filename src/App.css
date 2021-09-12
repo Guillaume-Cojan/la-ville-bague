@@ -648,3 +648,32 @@ p {
 .construction-details-paragraphs {
     margin-left: 10%;
 }
+
+/*------STYLING OF HISTORY------*/
+
+.history-intro {
+    padding: 1% 15%;
+    background-color: rgb(243, 243, 243);
+    text-align: justify;
+}
+
+.history-details {
+    padding: 1% 15%;
+    margin: 1% 0;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+}
+
+.history-details h2 {
+    text-align: left;
+}
+
+.history-details-paper {
+    display: flex;
+}
+
+.history-details-chapel {
+    display: flex;
+}

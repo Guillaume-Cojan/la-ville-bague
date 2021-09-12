@@ -10,6 +10,7 @@ import Events from "./components/Events";
 import Contacts from "./components/Contacts";
 import Company from "./components/Company";
 import Construction from "./components/Construction";
+import History from "./components/History";
 
 function App() {
     return (
@@ -24,6 +25,7 @@ function App() {
                 <Route path="/contacts" component={Contacts} />
                 <Route path="/compagnie_indes" component={Company} />
                 <Route path="/construction_malouinieres" component={Construction} />
+                <Route path="/histoire_ville_bague" component={History} />
             </Switch>
             <Footer />
         </>

@@ -1,5 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { Navbar, Container, Nav, Dropdown } from "react-bootstrap";
+import Hamburger from "../assets/hamburger.png";
 
 function NavBar() {
     return (
@@ -28,7 +29,12 @@ function NavBar() {
                             SAINT-COULOMB
                         </a>
                     </Navbar.Brand>
-                    <Navbar.Toggle className="hamburger-menu" />
+                    <Navbar.Toggle
+                        aria-controls="responsive-navbar-nav"
+                        className="hamburger-menu"
+                    >
+                        <img src={Hamburger} alt="menu" />
+                    </Navbar.Toggle>
                     <Navbar.Collapse className="navbar-right">
                         <Nav className="navbar-links">
                             <NavLink className="navlink-home" to="/">

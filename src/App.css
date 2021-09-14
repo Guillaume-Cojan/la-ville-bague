@@ -124,6 +124,15 @@ p {
     transition-duration: 0.3s;
 }
 
+.hamburger-menu {
+    background-color: rgb(61, 61, 61);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (min-width: 1094px) {
     .navbar-container {
         padding: 0 10%;
@@ -304,7 +313,7 @@ p {
     }
     .home-welcome-text-container {
         margin: 0 5%;
-        padding-top: 3%;
+        padding-top: 4%;
     }
     .top-img-container {
         height: 35vh;

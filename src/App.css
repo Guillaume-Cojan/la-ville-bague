@@ -171,7 +171,7 @@ p {
     background-size: cover;
     background-color: rgb(240, 240, 240);
     box-shadow: 0px 3px 11px rgb(0 0 0 / 70%);
-    height: 29vw;
+    height: 390px;
 }
 
 .home-welcome-text-container {
@@ -291,7 +291,7 @@ p {
         background-size: cover;
         background-color: rgb(240, 240, 240);
         box-shadow: 0px 3px 11px rgb(0 0 0 / 70%);
-        height: 26vw;
+        height: 280px;
     }
     .home-welcome-text-container {
         padding-top: 5%;
@@ -306,7 +306,7 @@ p {
         text-align: left;
     }
     #welcome-subtitle {
-        width: 10rem;
+        width: 9rem;
         font-size: 80%;
         line-height: 1.2rem;
         text-align: left;
@@ -316,7 +316,7 @@ p {
         padding-top: 4%;
     }
     .top-img-container {
-        height: 35vh;
+        height: 220px;
     }
     .home-intro h1 {
         text-align: left;

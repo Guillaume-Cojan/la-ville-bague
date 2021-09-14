@@ -37,8 +37,7 @@ function Home() {
                 <div className="home-welcome-text-container">
                     <h1 id="welcome-message">Bienvenue à la Malouinière!</h1>
                     <div id="welcome-subtitle">
-                        Invitez-vous au coeur d'une demeure d'armateurs
-                        malouins.
+                        Invitez-vous au cœur d'une demeure d'armateurs malouins.
                     </div>
                 </div>
             </div>

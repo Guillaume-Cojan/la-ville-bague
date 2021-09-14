@@ -192,7 +192,7 @@ function Home() {
                 <div className="home-other-right">
                     <h2>A LA UNE</h2>
                     <EventHome
-                        title="Journées du Patrimoine :"
+                        title="Journées du Patrimoine:"
                         img={Patrimoine}
                         description={
                             <>
@@ -208,7 +208,7 @@ function Home() {
                         linkText="En savoir plus"
                     />
                     <EventHome
-                        title="Marché d'Automne :"
+                        title="Marché d'Automne:"
                         img={Automne}
                         description={
                             <>

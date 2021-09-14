@@ -315,12 +315,12 @@ p {
     #welcome-message {
         width: 19.5rem;
         line-height: 1.6rem;
-        font-size: 148%;
+        font-size: 144%;
         text-align: left;
     }
     #welcome-subtitle {
-        width: 9.7rem;
-        font-size: 95%;
+        width: 9.8rem;
+        font-size: 93%;
         line-height: 1.2rem;
         text-align: left;
     }

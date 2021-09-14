@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: "Source Sans Pro", sans-serif;
+    font-family: "IBM Plex Sans Arabic", sans-serif;
 }
 
 h2,
@@ -162,7 +162,7 @@ p {
     background-size: cover;
     background-color: rgb(240, 240, 240);
     box-shadow: 0px 3px 11px rgb(0 0 0 / 70%);
-    height: 50vh;
+    height: 55vh;
 }
 
 .home-welcome-text-container {
@@ -176,7 +176,7 @@ p {
 #welcome-message {
     width: 27rem;
     color: rgb(46, 46, 46);
-    font-size: 240%;
+    font-size: 220%;
     line-height: 2.8rem;
     text-shadow: rgb(0 0 0 / 15%) 0px 3px 5px,
         rgb(255 255 255 / 30%) 0px -5px 35px;
@@ -266,11 +266,11 @@ p {
     #welcome-message {
         width: 20.3rem;
         line-height: 2.3rem;
-        font-size: 180%;
+        font-size: 160%;
     }
     #welcome-subtitle {
-        width: 23rem;
-        font-size: 81%;
+        width: 22.5rem;
+        font-size: 78%;
     }
     .top-img-container {
         background-image: url("./assets/home.jpg");
@@ -280,25 +280,26 @@ p {
         background-size: cover;
         background-color: rgb(240, 240, 240);
         box-shadow: 0px 3px 11px rgb(0 0 0 / 70%);
-        height: 40vh;
+        height: 45vh;
     }
 }
 
 @media screen and (max-width: 700px) {
     #welcome-message {
-        width: 18rem;
-        line-height: 2rem;
-        font-size: 160%;
+        width: 15rem;
+        line-height: 1.6rem;
+        font-size: 120%;
     }
     #welcome-subtitle {
-        width: 18rem;
-        font-size: 100%;
+        width: 12rem;
+        font-size: 80%;
+        line-height: 1.2rem;
     }
     .home-welcome-text-container {
-        margin: 0 8%;
+        margin: 0 5%;
     }
     .top-img-container {
-        height: 30vh;
+        height: 35vh;
     }
 }
 

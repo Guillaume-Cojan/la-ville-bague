@@ -359,11 +359,12 @@ p {
         padding: 2% 8%;
     }
     .home-other {
-        padding: 1% 8%;
+        padding: 1% 0%;
     }
     .home-other-right {
-        margin: 5% 50%;
-        width: 20%;
+        margin: 10% 50%;
+        width: 60%;
+        padding: 1% 8%;
     }
 }
 
